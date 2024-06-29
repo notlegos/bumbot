@@ -1,10 +1,11 @@
 {
-    "name": "bumbot",
+    "name": "bumbot(gun)",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "pxt-TPBot": "github:elecfreaks/pxt-tpbot#v1.2.9"
     },
     "files": [
         "main.blocks",
@@ -34,5 +35,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
